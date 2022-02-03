@@ -1,9 +1,5 @@
 # created on 22 Jan 2022
-'''
-Delete code before compile file
-1) widget
-2) bind Escape key
-'''
+
 from tkinter import *
 from tkinter import filedialog, messagebox
 import pandas as pd
@@ -118,7 +114,6 @@ def main():
 	developer = Developer(root, 'V.1 Created by: Natcha Phonkamhaeng')
 	developer.draw()
 
-	root.bind('<Escape>', lambda x:root.quit())
 	root.mainloop()
 
 if __name__ == '__main__':
